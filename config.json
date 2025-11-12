@@ -1,0 +1,17 @@
+{
+    "telegram": {
+        "bot_token": "8517626908:AAEHg78tfgcs6K-IPqIAHBjJrvoFj0Tkl0s"
+    },
+    "sonarr": {
+        "url": "https://mirror.seedhost.eu/desispeed/sonarr",
+        "api_key": "741eda5f60684da4b2a1886872f1790f",
+        "quality_profile_id": 1,
+        "root_folder": "/home32/desispeed/downloads/tv-sonarr"
+    },
+    "radarr": {
+        "url": "https://mirror.seedhost.eu/desispeed/radarr",
+        "api_key": "6a8482ff34f2499391f783a4fd3204d5",
+        "quality_profile_id": 1,
+        "root_folder": "/home32/desispeed/downloads/movies"
+    }
+}

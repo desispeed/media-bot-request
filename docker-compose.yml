@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  media-request-bot:
+    build: .
+    container_name: media-request-bot
+    restart: unless-stopped
+    volumes:
+      - ./config.json:/app/config.json:ro
+      - ./logs:/app/logs
+      - ./google-credentials.json:/app/google-credentials.json:ro  # Optional: for voice support
+    network_mode: host
+    environment:
+      - TZ=America/New_York
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"

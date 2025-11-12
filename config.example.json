@@ -1,0 +1,21 @@
+{
+    "telegram": {
+        "bot_token": "YOUR_TELEGRAM_BOT_TOKEN_HERE"
+    },
+    "sonarr": {
+        "url": "http://localhost:8989",
+        "api_key": "YOUR_SONARR_API_KEY_HERE",
+        "quality_profile_id": 1,
+        "root_folder": "/path/to/tv/shows"
+    },
+    "radarr": {
+        "url": "http://localhost:7878",
+        "api_key": "YOUR_RADARR_API_KEY_HERE",
+        "quality_profile_id": 1,
+        "root_folder": "/path/to/movies"
+    },
+    "voice": {
+        "enabled": true,
+        "google_credentials_path": "/app/google-credentials.json"
+    }
+}
